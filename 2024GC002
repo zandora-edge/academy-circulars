@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>General Circular : 2024/GC/002</title>
+    <link href="https://fonts.googleapis.com/css2?family=Cutive&family=Lekton:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Lekton', monospace;
+            background-color: #212529;
+            color: #DEE2E6;
+            margin: 0;
+            padding: 20px;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            line-height: 1.5;
+        }
+        h1 {
+            font-size: 1.6rem;
+            text-align: center;
+        }
+        .header {
+            font-size: 0.9rem;
+            margin-bottom: 10px;
+            display: flex;
+            justify-content: space-between;
+        }
+        .header strong {
+            display: block;
+        }
+        .content {
+            margin: 20px 0;
+        }
+        .content h2 {
+            font-size: 1.2rem;
+            margin-bottom: 10px;
+        }
+        ul {
+            margin: 10px 0 10px 20px;
+            padding: 0;
+        }
+        .footer {
+            font-size: 0.8rem;
+            text-align: center;
+            margin-top: 40px;
+            color: #ADB5BD;
+        }
+        a {
+            color: #61dafb;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        .right-align {
+            text-align: right;
+            margin-right: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <div>
+                <strong>Zan Academy</strong>
+                General Circular: 2024/GC/002 <br>
+                Category: Academic Announcement <br>
+                Dated December 12, 2024
+            </div>
+            <div>
+                <strong>Academic Affairs Office</strong>
+                <em>Kerala, IN</em>
+            </div>
+        </div>
+
+        <h1>Circular</h1>
+
+        <div class="content">
+            <p>
+                Dear Students,<br><br>
+                This is to notify all concerned that the <strong>Re-Examination/Improvement Exams</strong> for <strong>Batch 2021–2024</strong> (Final Examination) will be conducted as per the schedule below:
+            </p>
+            <p>
+                <strong>Examination Details:</strong>
+                <ul>
+                    <li><strong>Date:</strong> Saturday, December 14, 2024</li>
+                    <li><strong>Time:</strong> 1015 hrs</li>
+                    <li><strong>Venue:</strong> Sadanam Kumaran College, Pathirippala</li>
+                </ul>
+            </p>
+            <p>
+                <strong>Registration:</strong><br>
+                Students intending to appear for the Re-Examination/Improvement Exams must complete their registration at the affiliated center:
+                <ul>
+                    <li><strong>Deadline:</strong> Friday, December 13, 2024, at 1600 hrs</li>
+                </ul>
+            </p>
+            <p>
+                <strong>Important Instructions:</strong>
+                <ul>
+                    <li>Registration forms must be submitted in person at the affiliated center, <strong>Sadanam Kumaran College, Pathirippala</strong>.</li>
+                    <li>Ensure all requisite documents and fees are submitted during registration.</li>
+                    <li>Late registrations will not be entertained under any circumstances.</li>
+                </ul>
+            </p>
+            <p>
+                For further queries, contact the Academic Affairs Office at <a href="mailto:professor@zandora.org">professor@zandora.org</a>.
+            </p>
+            <p class="right-align">
+                Dr. Mohammed Musthafa (h.c, DDTAII)<br>
+                Principal & Head of the Institution (HoI)<br>
+                (For Controller of Examinations)
+            </p>
+        </div>
+
+        <div class="footer">
+            <p>&copy; 2024 Zan Academy a division under Zandora Group. All rights reserved.</p>
+        </div>
+    </div>
+</body>
+</html>
