@@ -4,14 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>General Circular : 2024/GC/004</title>
-    <link href="https://fonts.googleapis.com/css2?family=Cutive&family=Lekton:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
     <style>
         body {
-            font-family: 'Lekton', monospace;
-            background-color: #212529;
-            color: #DEE2E6;
+            font-family: 'Roboto', sans-serif;
+            background-color: #FFFFFF;
+            color: #000000;
             margin: 0;
             padding: 20px;
+            position: relative;
         }
         .container {
             max-width: 800px;
@@ -46,10 +47,10 @@
             font-size: 0.8rem;
             text-align: center;
             margin-top: 40px;
-            color: #ADB5BD;
+            color: #6c757d;
         }
         a {
-            color: #61dafb;
+            color: #007BFF;
             text-decoration: none;
         }
         a:hover {
@@ -58,6 +59,21 @@
         .right-align {
             text-align: right;
             margin-right: 20px;
+        }
+        .seal {
+            position: absolute;
+            bottom: 15px; /* Fixed distance from the bottom */
+            left: 400px; /* Fixed offset for larger devices */
+            width: 150px; /* Fixed size */
+            opacity: 0.8; /* Transparency */
+            max-width: 100%; /* Ensures it doesn't exceed screen width */
+        }
+        @media (max-width: 768px) {
+            .seal {
+                left: 50%; /* Center horizontally */
+                transform: translateX(-50%); /* Adjust to align properly */
+                bottom: 15px; /* Keep bottom consistent */
+            }
         }
     </style>
 </head>
@@ -81,7 +97,7 @@
         <div class="content">
             <p>
                 Dear Students,<br><br>
-                This is to notify all concerned that the <strong>results</strong> for the <strong>Re-Examination/Improvement Exams</strong> for <strong>Batch 2021–2024</strong> (Final Examination) conducted on Saturday, 14th December 2024 have been published. Students can check their results at:
+                This is to notify all concerned that the <strong>results</strong> for the <strong>Re-Examination/Improvement Exams</strong> for <strong>Batch 2021–2024</strong> (Final Examination) have been published. Students can check their results at:
             </p>
             <p>
                 <strong>Results Portal:</strong><br>
@@ -103,5 +119,8 @@
             <p>&copy; 2024 Zan Academy a division under Zandora Group. All rights reserved.</p>
         </div>
     </div>
+
+    <!-- Add the seal image -->
+    <img src="src/academy_stamp.png" alt="Seal" class="seal">
 </body>
 </html>
